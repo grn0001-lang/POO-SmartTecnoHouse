@@ -18,7 +18,8 @@ public class VentanaPrincipal extends JFrame {
     private final JButton botonAplicarReglas;
     private final JButton botonEjecutarCiclo;
     private final JButton botonLimpiarMensajes;
-
+    private final JButton botonGuardarEstado;
+    private final JButton botonCargarEstado;
     public VentanaPrincipal() {
         setTitle("Smart TecnoHouse - Sistema Domótico");
         setSize(900, 600);
@@ -34,6 +35,8 @@ public class VentanaPrincipal extends JFrame {
         botonAplicarReglas = new JButton("Aplicar reglas");
         botonEjecutarCiclo = new JButton("Ejecutar ciclo automático");
         botonLimpiarMensajes = new JButton("Limpiar mensajes");
+        botonGuardarEstado = new JButton("Guardar estado");
+        botonCargarEstado = new JButton("Cargar estado");
 
         construirInterfaz();
     }
@@ -52,6 +55,8 @@ public class VentanaPrincipal extends JFrame {
         panelBotones.add(botonActualizarSensores);
         panelBotones.add(botonAplicarReglas);
         panelBotones.add(botonEjecutarCiclo);
+        panelBotones.add(botonGuardarEstado);
+        panelBotones.add(botonCargarEstado);
         panelBotones.add(botonLimpiarMensajes);
 
         JPanel panelInferior = crearPanelConTitulo("Mensajes del sistema", areaMensajes);
@@ -112,5 +117,12 @@ public class VentanaPrincipal extends JFrame {
 
     public JButton getBotonLimpiarMensajes() {
         return botonLimpiarMensajes;
+    }
+    public JButton getBotonGuardarEstado() {
+        return botonGuardarEstado;
+    }
+
+    public JButton getBotonCargarEstado() {
+        return botonCargarEstado;
     }
 }
