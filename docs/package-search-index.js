@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"app"},{"l":"controlador"},{"l":"modelo"},{"l":"modelo.actuadores"},{"l":"modelo.dispositivos"},{"l":"modelo.persistencia"},{"l":"modelo.reglas"},{"l":"modelo.sensores"},{"l":"vista"}];updateSearchResults();
