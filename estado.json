@@ -1,0 +1,38 @@
+{
+  "actuadores": [
+    {
+      "id": "A001",
+      "nombre": "Bombilla inteligente",
+      "tipo": "ActuadorBombilla",
+      "encendido": false
+    },
+    {
+      "id": "A002",
+      "nombre": "Ventilador inteligente",
+      "tipo": "ActuadorVentilador",
+      "encendido": true,
+      "velocidad": 2
+    },
+    {
+      "id": "A003",
+      "nombre": "Persiana inteligente",
+      "tipo": "ActuadorPersiana",
+      "encendido": true,
+      "porcentajeApertura": 50
+    }
+  ],
+  "reglas": [
+    {
+      "nombre": "Iluminación automática",
+      "activa": true
+    },
+    {
+      "nombre": "Ventilación confortable",
+      "activa": true
+    },
+    {
+      "nombre": "Control de humedad",
+      "activa": true
+    }
+  ]
+}

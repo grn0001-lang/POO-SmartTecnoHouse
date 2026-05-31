@@ -1,0 +1,9 @@
+app
+controlador
+modelo
+modelo.actuadores
+modelo.dispositivos
+modelo.persistencia
+modelo.reglas
+modelo.sensores
+vista
